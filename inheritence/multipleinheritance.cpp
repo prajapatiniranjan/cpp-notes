@@ -21,6 +21,7 @@ public:
 
 class Child : public Parent1, public Parent2
 {
+    
 public:
     void method3()
     {

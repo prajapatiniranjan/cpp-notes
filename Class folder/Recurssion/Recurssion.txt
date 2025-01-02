@@ -1,3 +1,0 @@
-Recurssion :- function calling itself called recurssion 
-2. There are two type of recurssion 1. Head recurssion 2. tail recurssion
-3. in recurssion we always use two type of recurssion 1. base condition 2. recurssion relationship
