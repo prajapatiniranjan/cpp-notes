@@ -32,17 +32,17 @@ int main()
 {
     RBI *bank;
 
-    // Axis axis;
-    // bank = &axis;
-    // bank->msg();
+    Axis axis;
+    bank = &axis;
+    bank->msg();
 
     PNB pnb;
     bank = &pnb;
     bank->msg();
 
-    // RBI rbi;
-    // bank = &rbi;
-    // bank->msg();
+    RBI rbi;
+    bank = &rbi;
+    bank->msg(); 
 
     return 0;
 }
