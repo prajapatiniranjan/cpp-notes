@@ -1,0 +1,34 @@
+// main function call a single thread
+
+#include <iostream>
+using namespace std;
+#include <thread>
+void even( int start, int ends)
+{
+    for(int i=start;i<=ends;i++)
+    {
+        if(i%2)
+        {
+            cout << "Even No" << i << "\n";
+        }
+    }
+}
+
+void odd(int start, int ends)
+{
+    for (int i = start; i <= ends; i++)
+    {
+            if(i%2!=0)
+            {
+                cout << "Odd no " << i << "\n";
+            }
+    }
+}
+
+int main()
+{
+    
+   even(1,200);
+cout << "new line" << "\n";
+   odd(1,200); 
+}
